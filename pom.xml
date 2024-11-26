@@ -6,7 +6,6 @@
   <groupId>com.example</groupId>
   <artifactId>my-first-proj</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
 
   <name>my-first-proj</name>
   <!-- FIXME change it to the project's website -->
@@ -51,7 +50,7 @@
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.4.0</version>
         </plugin>
-        <!-- default lifecycle, war packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
+        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.3.1</version>
@@ -65,8 +64,8 @@
           <version>3.3.0</version>
         </plugin>
         <plugin>
-          <artifactId>maven-war-plugin</artifactId>
-          <version>3.3.1</version>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.4.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
